@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.left{float: left}
+.right{float: right}
+body{
+	font-family: Tahoma;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+.clear{
+	clear: both;
+	width: 100%;
+	height: 1px;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+#header{
+	padding: 10px;
+	width: 940px;
+	border-bottom: 1px solid #CD0A0A;
+}
+#header h1{
+	font-family: Helvetica;
+	color: green;
+	font-weight: normal;
+	font-size: 24px;
+}
+#operation{
+	padding: 20px 10px;
+	width: 940px;
+}
+.show_week{
+	margin-top: 5px;
+	float: left;
+}
+.show_week a{
+	text-decoration: none;
+	padding: 0px 5px;
+	color: #444;
+}
+.show_week a:hover{
+	text-decoration: underline;
+}
+.show_week a img{
+	margin-top: 2px;
+}
+.show_date{
+	background: #ddd;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+.date{
+	font-family: Helvetica;
+	color: #CD0A0A;
+	padding: 0px 5px;
+	font-style: italic;
+}
+.add_result{
+	float:right;
+}
+.add_result a{
+	float: right;
+	font-size: 100%;
+	background: #eee;
+	color: #336699;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 1px solid #cac9c9;
+	border-radius: 4px;
+	outline: none;
+}
+.add_result a:hover{
+	color: #114477;
+	background: #fff;
+	border: 1px solid #888;
+}
+#results{
+	width: 960px;
+}
+#results ul li{
+	list-style: none;
+}
+#results img{
+	float: left;
+	margin-right: 10px;
+}
+#results p{
+	font-size: 85%;
+	color: #336699;
+	width: 850px;
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+#results .dev{
+	color: #CD0A0A;
+	display: inline-block;
+	width: 50px;
+}
+#results p:hover{
+	border: 1px solid #888;
+	background: #eee;
+}
+#results ul li p a{
+	color: #5577bb;
+	padding: 0px 5px;
+	text-align: center;
+	float: right;
+	outline: none;
+	text-decoration: none;
+}
+#results ul li p a:hover{
+	color: #114477;
+	text-decoration: underline;
+}
+#tabs a{
+	font-size: 90%;
+}
+.show_note{
+	color: #666;
+	display: block;
+	margin: 10px 5px 5px 20px;
+	padding: 3px 5px;
+	/*border: 1px solid #ddd;*/
+}
+.current{
+	float: right;
+}
+.current a{
+	font-family: Helvetica;
+	font-size: 90%;
+	color: green;
+	text-decoration: none;
+	outline: none;
+	font-weight: bold;
+}
+.current a:hover{
+}
+
+/*dialog*/
+.ui-dialog{
+	font-size: 90%;
+}
+#dialog-message{
+	color: #000099;
+}
+#dialog-message label{
+	float: left;
+	width: 150px;
+}
+#dialog-message select,textarea,input[type=submit]{
+	margin-bottom: 10px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	padding: 5px;
+}
+#dialog-message select{
+	width: 200px;
+}
+#dialog-message input[type=submit]{
+	margin-left: 505px;
+}
+#footer p{
+	color: blue;
+	font-size: 85%;
+	text-align: center;
+}
+.success,.error{
+	color: green;
+	padding: 5px;
+	margin-left: 20px;
+}
+.error,.require{
+	color: red;
+}
+.show_todo{
+	color: green;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 400px;
+}
